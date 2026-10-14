@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #div1{
+            height: 100%;
+            width: 50%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        #div2{
+             background-image: url('./imagem.png');
+             background-size: cover;
+            height: 100%;
+            width: 50%;
+        }
+
+        input{
+            width: 200px;
+            margin-bottom: 10px;
+            height: 30px;
+        }
+
+        #botao{
+            background-color: #000;
+            color: #fff;
+            border: none;
+        }
+        h1{
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">
+        <h1>Login</h1>
+        <input type="email" name="" id="">
+        <input type="password" name="" id="">
+        <input type="button" id="botao" value="Login">
+    </div>
+    <div id="div2"></div>
+</body>
+</html>
